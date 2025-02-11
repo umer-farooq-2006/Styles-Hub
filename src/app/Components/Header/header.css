@@ -1,0 +1,55 @@
+header {
+    position: relative;
+    width: 100%;
+    height: 80px;
+}
+
+header .menu2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .menu2 .heading {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+header .menu2 .nav ul {
+    display: flex;
+}
+
+header .menu2 .nav ul li {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0px 15px;
+    font-style: italic;
+}
+
+header .menu2 .nav ul li:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease;
+    color: red;
+}
+
+header .menu2 .nav ul #dropDown {
+    display: flex;
+    align-items: center;
+}
+
+header .menu2 .login-reg-icons {
+    display: flex;
+    align-items: center;
+    color: rgb(124, 124, 255);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+header .menu2 .login-reg-icons .login-reg {
+    display: flex;
+    align-items: center;
+}

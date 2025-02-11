@@ -1,0 +1,73 @@
+@import 'boxicons/css/boxicons.min.css';
+
+.topHeader {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #252B42;
+}
+
+.topHeader .menu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+.topHeader .menu .icon-Number, .icon-email, .description, .follow {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.topHeader .menu .icon-Number i {
+    font-size: 1.4rem;
+    margin: 0px 10px;
+    color: rgb(0, 209, 0);
+}
+
+.topHeader .menu .icon-email i {
+    font-size: 1.4rem;
+    margin: 0px 10px;
+    color: red;
+}
+
+.topHeader .menu .follow .icons {
+    margin-left: 10px;
+}
+
+.topHeader .menu .follow .icons i {
+    font-size: 1.4rem;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.topHeader .menu .follow .icons .instagram:hover {
+    color: #ff28db;
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease;
+}
+
+.topHeader .menu .follow .icons .youtube:hover {
+    color: rgb(255, 82, 82);
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease;
+}
+
+.topHeader .menu .follow .icons .facebook:hover {
+    color: rgb(95, 95, 255);
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease;
+}
+
+.topHeader .menu .follow .icons .twitter:hover {
+    color: rgb(65, 170, 255);
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease;
+}
+

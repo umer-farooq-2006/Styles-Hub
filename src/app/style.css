@@ -1,0 +1,421 @@
+/* Section One CSS */
+
+.section-one {
+    position: relative;
+}
+
+.section-one > article {
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    color: #fff;
+}
+
+.section-one > article p {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.section-one > article h1 {
+    font-size: 4.2rem;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.section-one > article h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.section-one > article button {
+    padding: 20px 50px;
+    background-color: #2DC071;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+.section-one > article button:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease;
+}
+
+/* Section Two CSS */
+
+.section-two {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+}
+
+.section-two .sub-section-two {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+}
+
+.section-two .sub-section-two > article {
+    text-align: center;
+    margin: 70px;
+}
+
+.section-two .sub-section-two > article h1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.section-two .sub-section-two > article p {
+    font-size: 1.1rem;
+    margin: 10px;
+    font-weight: 600;
+    color: #737373;
+    font-style: italic;
+}
+
+.section-two .sub-section-two .images {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-two .sub-section-two .images .img-1, .img-2 {
+    position: relative;
+}
+
+.section-two .sub-section-two .images .img-1:hover, .img-2:hover {
+    transform: scale(1.02, 1.02);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.section-two .sub-section-two .images .imgs .imgs-1, .imgs-2 {
+    position: relative;
+}
+
+.section-two .sub-section-two .images .imgs .imgs-1:hover, .imgs-2:hover {
+    transform: scale(1.05, 1.05);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.section-two .sub-section-two .images .imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-two .sub-section-two .images .men-title {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-color: #fff;
+    padding: 10px 60px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.section-two .sub-section-two .images .women-title {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-color: #fff;
+    padding: 10px 60px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.section-two .sub-section-two .images .accessories-title {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+.section-two .sub-section-two .images .kids-title {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/* Section Three CSS */
+
+.section-three {
+    position: relative;
+    width: 100%;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-three .sub-section-three {
+    position: absolute;
+    height: 100%;
+    width: 85%;
+}
+
+.section-three .sub-section-three article {
+    text-align: center;
+    margin: 50px;
+}
+
+.section-three .sub-section-three article h2 {
+    color: #737373;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.section-three .sub-section-three article h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.section-three .sub-section-three article p {
+    color: #737373;
+    font-weight: 600;
+}
+
+.section-three .sub-section-three .container-one {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-three .sub-section-three .container-two {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-three .sub-section-three .container-one .common > .Image:hover, .container-two .common > .Image:hover {
+    transform: scale(1.05, 1.05);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.section-three .sub-section-three .container-one .common > section, .container-two .common > section {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.section-three .sub-section-three .container-one .common > section h1, .container-two .common > section h1 {
+    margin: 12px 0px;
+    font-weight: bold;
+}
+
+.section-three .sub-section-three .container-one .common > section .heading2, .container-two .common > section .heading2 {
+    color: #737373;
+    font-size: 1.1rem;
+}
+
+.section-three .sub-section-three .container-one .common > section p, .container-two .common > section p {
+    color: #BDBDBD;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.section-three .sub-section-three .container-one .common > section span, .container-two .common > section span {
+    color: #23856D;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.section-three .sub-section-three .container-one .common > section .colors, .container-two .common > section .colors {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.section-three .sub-section-three .container-one .common > section .colors #blue, .container-two .common > section .colors #blue {
+    width: 18px;
+    height: 18px;
+    background-color: #23A6F0;
+    border-radius: 50%;
+    margin: 0px 3px;
+}
+
+.section-three .sub-section-three .container-one .common > section .colors #green, .container-two .common > section .colors #green {
+    width: 18px;
+    height: 18px;
+    background-color: #23856D;
+    border-radius: 50%;
+    margin: 0px 3px;
+}
+
+.section-three .sub-section-three .container-one .common > section .colors #yellow, .container-two .common > section .colors #yellow {
+    width: 18px;
+    height: 18px;
+    background-color: #E77C40;
+    border-radius: 50%;
+    margin: 0px 3px;
+}
+
+.section-three .sub-section-three .container-one .common > section .colors #black, .container-two .common > section .colors #black {
+    width: 18px;
+    height: 18px;
+    background-color: #252B42;
+    border-radius: 50%;
+    margin: 0px 3px;
+}
+
+/* Section Four CSS */
+
+.section-four {
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    height: 650px;
+}
+
+.section-four .sec-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #23856D;
+}
+
+.section-four .sec-img .text h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.section-four .sec-img .text h1 {
+    color: #fff;
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.section-four .sec-img .text #text-para {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 35px;
+}
+
+.section-four .sec-img .text .paragraph-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px 0px 0px;
+}
+
+.section-four .sec-img .text .paragraph-btn p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.section-four .sec-img .text .paragraph-btn button {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #2DC071;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+.section-four .sec-img .text .paragraph-btn button:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease;
+}
+
+/* Section Five CSS */
+
+.section-five {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-five .sec5 {
+    width: 700px;
+    height: 100%;
+}
+
+.section-five .right-side {
+    height: 100%;
+    width: 100%;
+    padding: 100px;
+}
+
+.section-five .right-side h3 {
+    color: #BDBDBD;
+    font-weight: 600;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.section-five .right-side h1 {
+    color: #252B42;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 25px 0px;
+}
+
+.section-five .right-side p {
+    color: #737373;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.section-five .right-side .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-five .right-side .buttons #btn-one {
+    background-color: #2DC071;
+    padding: 15px 50px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.section-five .right-side .buttons #btn-one:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease;
+    padding: 15px 50px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid #2DC071;
+    color: #2DC071;
+    background-color: #fff;
+}
+
+.section-five .right-side .buttons #btn-two {
+    padding: 15px 50px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid #2DC071;
+    color: #2DC071;
+    margin-right: 75px;
+}
+
+.section-five .right-side .buttons #btn-two:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease;
+}
