@@ -1,16 +1,16 @@
-import React from 'react'
-import "./footer.css"
+import React from "react";
+import "./footer.css";
 
 const Footer = () => {
   return (
     <div>
       <section className="section-six">
         <div className="upper">
-          <h1>Bandage</h1>
+          <h1>Styles Hub</h1>
           <div className="social">
-          <i className='bx bxl-facebook-circle' ></i>
-          <i className='bx bxl-instagram' ></i>
-          <i className='bx bxl-twitter' ></i>
+            <i className="bx bxl-facebook-circle"></i>
+            <i className="bx bxl-instagram"></i>
+            <i className="bx bxl-twitter"></i>
           </div>
         </div>
         <div className="middle">
@@ -24,16 +24,16 @@ const Footer = () => {
             </ul>
           </div>
           <div className="list-2">
-          <h1>Legal</h1>
+            <h1>Legal</h1>
             <ul>
-            <li>About Us</li>
+              <li>About Us</li>
               <li>Carrier</li>
               <li>We are hiring</li>
               <li>Blog</li>
             </ul>
           </div>
           <div className="list-3">
-          <h1>Features</h1>
+            <h1>Features</h1>
             <ul>
               <li>Business Marketing</li>
               <li>User Analytic</li>
@@ -42,7 +42,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="list-4">
-          <h1>Resources</h1>
+            <h1>Resources</h1>
             <ul>
               <li>IOS & Android</li>
               <li>Watch a Demo</li>
@@ -52,8 +52,10 @@ const Footer = () => {
           </div>
           <div className="list-5">
             <h1>Get In Touch</h1>
-            <input type="email" placeholder='Your Email' name='email'/>
-            <label>Subscribe</label>
+            <div>
+              <input type="email" placeholder="Your Email" name="email" />
+              <label>Subscribe</label>
+            </div>
             <p>Lore imp sum dolor Amit</p>
           </div>
         </div>
@@ -62,7 +64,7 @@ const Footer = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

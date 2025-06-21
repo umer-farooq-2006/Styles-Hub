@@ -26,16 +26,16 @@ const TopHeader = () => {
             <h3>Follow Us :</h3>
             <div className="icons">
               <Link href="#">
-                <i className="bx bxl-instagram instagram"></i>
+                <i className="bx bxl-instagram instagram common"></i>
               </Link>
               <Link href="#">
-                <i className="bx bxl-youtube youtube"></i>
+                <i className="bx bxl-youtube youtube common"></i>
               </Link>
               <Link href="#">
-                <i className="bx bxl-facebook-circle facebook"></i>
+                <i className="bx bxl-facebook-circle facebook common"></i>
               </Link>
               <Link href="#">
-                <i className="bx bxl-twitter twitter"></i>
+                <i className="bx bxl-twitter twitter common"></i>
               </Link>
             </div>
           </div>

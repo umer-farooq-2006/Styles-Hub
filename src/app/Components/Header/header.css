@@ -53,3 +53,50 @@ header .menu2 .login-reg-icons .login-reg {
     display: flex;
     align-items: center;
 }
+
+@media (max-width: 1090px) {
+    header .menu2 .nav ul {
+        display: none;
+    }
+}
+
+@media (max-width: 660px) {
+    header {
+        height: 50px;
+    }
+
+    header .menu2 .heading {
+        font-size: 1.4rem;
+    }
+
+    header .menu2 .login-reg-icons {
+        font-size: 0.9rem;
+    }
+    
+    header .menu2 .login-reg-icons .login-reg {
+        margin-right: -30px;
+    }
+}
+
+@media (max-width: 475px) {
+    header {
+        height: 30px;
+    }
+
+    header .menu2 .heading {
+        font-size: 1rem;
+        margin-left: -15px;
+    }
+
+    header .menu2 .login-reg-icons {
+        font-size: 0.7rem;
+    }
+
+    header .menu2 .login-reg-icons .login-reg {
+        margin-right: -60px;
+    }
+
+    header .menu2 .login-reg-icons .icons {
+        display: none;
+    }
+}

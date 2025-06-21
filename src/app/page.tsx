@@ -29,20 +29,20 @@ const Home = () => {
           </article>
           <div className="images">
             <div className='img-1'>
-              <Image src="/Images/Mens.jpg" alt='' width={400} height={0}/>
+              <Image src="/Images/Mens.jpg" alt='' width={400} height={0} className='men'/>
               <h3 className='men-title'>MEN</h3>
             </div>
             <div className='img-2'>
-              <Image src="/Images/Womens.jpg" alt='' width={400} height={0}/>
+              <Image src="/Images/Womens.jpg" alt='' width={400} height={0} className='women'/>
               <h3 className='women-title'>WOMEN</h3>
             </div>
             <div className='imgs'>
               <div className='imgs-1'>
-                <Image src="/Images/Accessories.jpg" alt='' width={190} height={0}/>
+                <Image src="/Images/Accessories.jpg" alt='' width={190} height={0} className='accessories'/>
                 <h3 className='accessories-title'>ACCESSORIES</h3>
               </div>
               <div className='imgs-2'>
-                <Image src="/Images/Kids.jpg" alt='' width={190} height={0}/>
+                <Image src="/Images/Kids.jpg" alt='' width={190} height={0} className='kids'/>
                 <h3 className='kids-title'>KIDS</h3>
               </div>
             </div>
@@ -179,7 +179,7 @@ const Home = () => {
       <section className="section-four">
         <div className="sec-img">
           <section className="text">
-            <h3>SUMMER 2020</h3>
+            <h3 id='summer-2020'>SUMMER 2020</h3>
             <h1>Vita Classic <br /> Product</h1>
             <p id='text-para'>We know how large objects will act, We know <br /> how are objects will act, We know</p>
             <div className="paragraph-btn">
@@ -187,19 +187,21 @@ const Home = () => {
               <button>ADD TO CART</button>
             </div>
           </section>
-          <Image src="/Images/greenpic.png" alt='' width={400} height={0}/>
+          <Image src="/Images/greenpic.png" alt='' width={400} height={0} className='greenBoy'/>
         </div>
       </section>
       {/* Section Five HTML */}
       <section className="section-five">
-        <Image src="/Images/redpic.png" alt='' width={1000} height={1000} className='sec5'/>
+        <Image src="/Images/redpic.png" alt='' width={1400} height={1200} className='sec5'/>
         <div className="right-side">
-          <h3>SUMMER 2020</h3>
-          <h1>Part of the Neural <br /> Universe</h1>
-          <p>We know how large objects will act, but things on a small scale.</p>
+          <div className='right-side-text'>
+          <h3 id='summer'>SUMMER 2020</h3>
+          <h1 id='universe'>Part of the Neural <br /> Universe</h1>
+          <p id='pra'>We know how large objects will act, but things on a small scale.</p>
           <div className="buttons">
             <button id='btn-one'>BUY NOW</button>
             <button id='btn-two'>READ MORE</button>
+          </div>
           </div>
         </div>
       </section>

@@ -71,3 +71,49 @@
     transition: all 0.3s ease;
 }
 
+@media (max-width: 1090px) {
+    .topHeader .menu .contact .icon-Number {
+        display: none;
+    }
+
+    .topHeader .menu .email .icon-email {
+        display: none;
+    }
+
+    .topHeader .menu .description {
+        position: absolute;
+    }
+}
+
+@media (max-width: 660px) {
+    .topHeader {
+        height: 40px;
+    }
+
+    .topHeader > .menu > .description {
+        font-size: 0.7rem;
+    }
+
+    .topHeader > .menu > .follow > h3 {
+        font-size: 0.7rem;
+    }
+
+    .topHeader .menu .follow .icons i {
+        font-size: 0.9rem;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 475px) {
+    .topHeader {
+        height: 25px;
+    }
+
+    .topHeader .menu .follow .icons {
+        margin-right: -10px;
+    }
+
+    .topHeader > .menu > .description {
+        display: none;
+    }
+}
